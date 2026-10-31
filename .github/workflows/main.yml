@@ -26,6 +26,4 @@ jobs:
         with:
           node-version: "20"
       - name: Check JS syntax
-        run: |
-          npm install -g jshint
-          jshint --config <(echo '{"esversion":11,"node":true}') server/database/*.js
+        run: for f in server/database/*.js; do node --check "$f"; done
