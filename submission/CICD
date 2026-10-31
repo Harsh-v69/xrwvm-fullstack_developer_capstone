@@ -1,0 +1,51 @@
+Run: https://github.com/Harsh-v69/xrwvm-fullstack_developer_capstone/actions/runs/41209760972
+
+✓ main CI · 41209760972
+Triggered via push less than a minute ago
+
+JOBS
+✓ lint_js in 11s (ID 124562082994)
+✓ lint_python in 9s (ID 124562083022)
+
+ANNOTATIONS
+
+lint_js | Set up job | ##[group]Runner Image Provisioner
+lint_js | Set up job | ##[group]Operating System
+lint_js | Set up job | ##[group]Runner Image
+lint_js | Set up job | ##[group]GITHUB_TOKEN Permissions
+lint_js | Set up job | Complete job name: lint_js
+lint_js	Run actions/checkout@v4	﻿2026-10-31T14:21:38.2461966Z ##[group]Run actions/checkout@v4
+lint_js | Run actions/checkout@v4 | with:
+lint_js | Run actions/checkout@v4 |   repository: Harsh-v69/xrwvm-fullstack_developer_capstone
+lint_js | Run actions/checkout@v4 |   token: ***
+lint_js | Run actions/checkout@v4 |   ssh-strict: true
+lint_js | Run actions/checkout@v4 |   ssh-user: git
+lint_js | Run actions/checkout@v4 |   persist-credentials: true
+lint_js | Run actions/checkout@v4 |   clean: true
+lint_js | Run actions/checkout@v4 |   sparse-checkout-cone-mode: true
+lint_js | Run actions/checkout@v4 |   fetch-depth: 1
+lint_js | Run actions/checkout@v4 |   fetch-tags: false
+lint_js | Run actions/checkout@v4 |   show-progress: true
+lint_js | Run actions/checkout@v4 |   lfs: false
+lint_js | Run actions/checkout@v4 |   submodules: false
+lint_js | Run actions/checkout@v4 |   set-safe-directory: true
+lint_js | Run actions/checkout@v4 |   allow-unsafe-pr-checkout: false
+lint_js | Run actions/checkout@v4 | ##[endgroup]
+lint_js | Run actions/checkout@v4 | Syncing repository: Harsh-v69/xrwvm-fullstack_developer_capstone
+lint_js | Run actions/checkout@v4 | ##[group]Getting Git version info
+lint_js | Run actions/checkout@v4 | Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+lint_js | Run actions/checkout@v4 | [command]/usr/bin/git version
+lint_js | Run actions/checkout@v4 | git version 2.56.0
+lint_js | Run actions/checkout@v4 | ##[endgroup]
+lint_js | Run actions/checkout@v4 | Temporarily overriding HOME='/home/runner/work/_temp/8e6c9861-32ca-4210-ac03-b101455a05be' before making global git config changes
+lint_js | Run actions/checkout@v4 | Adding repository directory to the temporary git global config as a safe directory
+lint_js | Run actions/checkout@v4 | [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+lint_js | Run actions/checkout@v4 | Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+lint_js | Run actions/checkout@v4 | ##[group]Initializing the repository
+lint_js | Run actions/checkout@v4 | [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+lint_js | Run actions/checkout@v4 | hint: Using 'master' as the name for the initial branch. This default branch name
+lint_js | Run actions/checkout@v4 | hint: will change to "main" in Git 3.0. To configure the initial branch name
+lint_js | Run actions/checkout@v4 | hint: to use in all of your new repositories, which will suppress this warning,
+lint_js | Run actions/checkout@v4 | hint: call:
+lint_js | Run actions/checkout@v4 | hint:
+lint_js | Run actions/checkout@v4 | hint: 	git config --global init.defaultBranch <name>
