@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint_python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install flake8
+      - name: Lint Python
+        run: flake8 server/djangoapp --exclude migrations,microservices --max-line-length 100
+
+  lint_js:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Check JS syntax
+        run: |
+          npm install -g jshint
+          jshint --config <(echo '{"esversion":11,"node":true}') server/database/*.js

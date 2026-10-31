@@ -1,0 +1,2 @@
+$ curl http://localhost:8000/djangoapp/get_dealers/Kansas
+{"status": 200, "dealers": [{"_id": "6ae5f22e4c5e61a44593e8ef", "id": 8, "city": "Topeka", "state": "Kansas", "address": "288 Larry Place", "zip": "66642", "lat": "39.0429", "long": "-95.7697", "short_name": "Bytecard", "full_name": "Bytecard Car Dealership", "__v": 0}]}

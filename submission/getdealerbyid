@@ -1,0 +1,2 @@
+$ curl http://localhost:8000/djangoapp/dealer/3
+{"status": 200, "dealer": [{"_id": "6ae5f22e4c5e61a44593e8ea", "id": 3, "city": "Birmingham", "state": "Alabama", "address": "9477 Twin Pines Center", "zip": "35285", "lat": "33.5446", "long": "-86.9292", "short_name": "Sub-Ex", "full_name": "Sub-Ex Car Dealership", "__v": 0}]}

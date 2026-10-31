@@ -1,0 +1,2 @@
+$ curl http://localhost:5050/analyze/Fantastic%20services
+{"sentiment": "positive"}
